@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitifoc Capital</title>
+  <style>
+    :root {
+      --bg: #0d0d0d;
+      --text: #ffffff;
+      --accent: #888;
+      --primary: #00ffc8;
+      --section-gap: 80px;
+    }
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 120px 20px 60px;
+    }
+    header h1 {
+      font-size: 3.5em;
+      margin-bottom: 0.3em;
+    }
+    header p {
+      color: var(--accent);
+      font-size: 1.2em;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 20px;
+    }
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.95em;
+    }
+    section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: var(--section-gap) 20px;
+    }
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #333;
+      padding-bottom: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 60px 20px;
+      font-size: 0.9em;
+      color: var(--accent);
+    }
+    .socials {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    .socials a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .gallery-placeholder {
+      height: 200px;
+      background: #1a1a1a;
+      border: 1px dashed #444;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #555;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vitifoc Capital</h1>
+    <p>BUILD — TRUST — VALUE — VISION — CRYPTO — CAPITAL</p>
+    <nav>
+      <a href="#sobre">Sobre nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre nosotros</h2>
+    <p>Vitifoc Capital es una iniciativa independiente centrada en la educación, análisis y visión estratégica sobre el mundo cripto. Nuestro objetivo es generar valor desde la confianza y el conocimiento.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <p>Próximamente: Consultorías, análisis de proyectos y acompañamiento para inversores emergentes.</p>
+  </section>
+
+  <section id="galeria">
+    <h2>Galería</h2>
+    <div class="gallery-placeholder">Aquí se mostrarán tus fotos cuando las tengamos.</div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Para consultas, colaborações o asesoramiento, escríbenos a <strong>contacto@vitifoccapital.com</strong>.</p>
+    <div class="socials">
+      <a href="https://twitter.com/vitifoc.capital" target="_blank">Twitter</a>
+      <a href="https://instagram.com/vitifoc.capital" target="_blank">Instagram</a>
+      <a href="https://tiktok.com/@vitifoc.capital" target="_blank">TikTok</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Vitifoc Capital. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
