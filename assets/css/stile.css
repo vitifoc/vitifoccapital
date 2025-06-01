@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f1115;
+  color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #13161b;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav a {
+  color: #f4f4f4;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+.hero {
+  text-align: center;
+  padding: 10vh 2rem;
+  background: linear-gradient(to right, #1a1d23, #2d323c);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta {
+  padding: 0.75rem 2rem;
+  background-color: #ffd700;
+  color: #000;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.projects, .about, .media {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.projects h2, .about h2, .media h2 {
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  background: #1e222a;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 300px;
+  flex: 1 1 250px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+}
+
+footer {
+  background: #13161b;
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer .socials a {
+  margin: 0 1rem;
+  color: #ffd700;
+  text-decoration: none;
+}
